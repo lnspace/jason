@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Route Calculator</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/papaparse.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <h1 class="header center orange-text">Route Calculator</h1>
+    <ul id="dropdown2" class="dropdown-content">
+       <li><a href="#!">one<span class="badge">1</span></a></li>
+       <li><a href="#!">two<span class="new badge">1</span></a></li>
+       <li><a href="#!">three</a></li>
+     </ul>
+     <a class="btn dropdown-trigger" href="#!" data-target="dropdown2">Dropdown<i class="material-icons right">arrow_drop_down</i></a>
+    <div class="row">
+      <div class="input-field col s6">
+        <input placeholder="1" value="" id="first_name2" type="text" class="validate">
+        <label class="active" for="first_name2">M3</label>
+      </div>
+    </div>
+    <script src="js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          var elems = document.querySelectorAll('select');
+          var instances = M.FormSelect.init(elems);
+        });
+    </script>
+</body>
+</html>

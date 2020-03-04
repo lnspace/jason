@@ -1,0 +1,8 @@
+We calculate rates for our quotes to move customers furniture on different routes using cubic meters
+
+For example on a route from Brisbane to Sydney for 1m3 we charge 300.00 for a backload rate and $400.00 for a standard rate, see attached csv
+
+
+What I want is to provide an online form that someone can select one value from AREA1 and one value AREA2, enter a number in the M3 field, and be provided the result of the 4th, and the fifth column in a clear concise way
+
+This would have to be a look up as opposed to calculation as on occasion the value is a text field not a number, looking at attached CSV you will see if you selected Brisbane to Sydney for 35m then answer is “CLEARSKY
